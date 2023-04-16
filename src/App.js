@@ -4,7 +4,9 @@ import './Atividades.css';
 // import {World, Arena} from './components/atividades/atividade01/03Batalha'
 import FunctionContextA from './components/atividades/atividade02/questao01/FunctionContextA';
 import ComponenteAvo from './components/atividades/atividade02/questao02/ComponenteAvo';
-import Cidades from './components/atividades/atividade03/Cidades';
+import Cidades from './components/atividades/atividade03/questao01/Cidades';
+import Pai from './components/atividades/atividade03/questao02/Pai';
+import PokemonAxios from './components/11Axios/PokemonAxios';
 
 // function App() {
 //   return (
@@ -41,7 +43,7 @@ import Cidades from './components/atividades/atividade03/Cidades';
 
 function App() {
   return (
-    <Cidades></Cidades>
+    <PokemonAxios />
   )
 }
 
