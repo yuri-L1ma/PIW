@@ -7,9 +7,10 @@ import ComponenteAvo from './components/atividades/atividade02/questao02/Compone
 import Cidades from './components/atividades/atividade03/questao01/Cidades';
 import Pai from './components/atividades/atividade03/questao02/Pai';
 import PokemonAxios from './components/11Axios/PokemonAxios';
-import TelaPrincipal from './components/12Redux/v2/TelaPrincipal';
-import MeuIndex from './components/12Redux/v2/MeuIndex';
+// import TelaPrincipal from './components/12Redux/v2/TelaPrincipal';
+// import MeuIndex from './components/12Redux/v2/MeuIndex';
 import Questao03 from './components/provaWeb/Questao03'
+// import MinhaPromise from './components/13Promisses/MinhaPromessa';
 
 // function App() {
 //   return (
@@ -46,7 +47,7 @@ import Questao03 from './components/provaWeb/Questao03'
 
 function App() {
   return (
-    <Questao03/>
+    <Questao03></Questao03>
   )
 }
 

@@ -15,15 +15,15 @@ const Questao03 = () => {
             (data) => {
                 let small = data[0]
                 let big = data[0]
-                setSmallPopulationCountry(small)
-                setBigPopulationCountry(big)
+
                 for (let country of data) {
-                    if (Number(country.population) < small) {
+                    if (country.population < small.population) {
                         small = country
-                    } else if (Number(country.population) > bigPopulationCountry.population) {
+                    } else if (country.population > big.population) {
                         big = country
                     }
                 }
+                
                 setSmallPopulationCountry(small)
                 setBigPopulationCountry(big)
             }
@@ -33,8 +33,8 @@ const Questao03 = () => {
 
     return (
         <>
-            <h1>Capital com menor população: {smallPopulationCountry.capital}</h1>
-            <h1>Capital com maior população: {bigPopulationCountry.capital}</h1>
+            <h1>Capital com menor população: {smallPopulationCountry.capital[0]}</h1>
+            <h1>Capital com maior população: {bigPopulationCountry.capital[0]}</h1>
         </>
     )
 }
