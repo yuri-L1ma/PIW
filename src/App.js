@@ -7,6 +7,12 @@ import ComponenteAvo from './components/atividades/atividade02/questao02/Compone
 import Cidades from './components/atividades/atividade03/questao01/Cidades';
 import Pai from './components/atividades/atividade03/questao02/Pai';
 import PokemonAxios from './components/11Axios/PokemonAxios';
+import { Questao01A } from './components/provaPIW/Questao01';
+import Questao02 from './components/provaPIW/Questao02';
+import Questao03 from './components/provaPIW/Questao03';
+// import TelaPrincipal from './components/12Redux/v2/TelaPrincipal';
+// import MeuIndex from './components/12Redux/v2/MeuIndex';
+// import MinhaPromise from './components/13Promisses/MinhaPromessa';
 
 // function App() {
 //   return (
@@ -43,7 +49,11 @@ import PokemonAxios from './components/11Axios/PokemonAxios';
 
 function App() {
   return (
-    <PokemonAxios />
+    // <Questao01A>
+
+    // </Questao01A>
+    // <Questao02></Questao02>
+    <Questao03></Questao03>
   )
 }
 
